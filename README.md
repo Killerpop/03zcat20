@@ -28,7 +28,7 @@ Dependencies:
 
 Commands:
 
-	git clone https://github.com/Killerpop/03Zcat.git
+	git clone https://github.com/Killerpop/03zcat20.git
 	cd 03Zcat
 	chmod +x 03Zcat.sh
 	sudo ./03Zcat.sh
