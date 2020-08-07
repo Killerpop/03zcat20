@@ -21,6 +21,21 @@ We do not become sad of the bad use of it.
 <img src="https://1.bp.blogspot.com/-vBsljEl0eRk/Xy2aWqnPcFI/AAAAAAAACsE/XYvXGlek_as-fYO88RBzNonEMlZ_KHbOACLcBGAsYHQ/s1090/03zcat.png" />
 
 
+Executable type
+OS:
+
+Windows [.exe // .ps1 // .dll]
+OSX [.macho]
+Linux [.elf // .py // .jar]
+Android  [.apk]
+
+
+Others:
+
+PHP
+Tomcat [.war]
+
+
 
 Dependencies:
 
