@@ -6,7 +6,7 @@ http://www.greyhelmet.ml/   https://www.greyhelmet.ml/2020/08/03zcat-automatizar
 
 03Zcat es una excelente herramienta enfocado a vulnerar un dispositivo externo.
 Basado en msfvenom, escrito en bash. Ejecuta todos los formatos disponibles de la herramienta con facilidad.
-Esta herramienta esta creada para ser usada en entornos controlados. Para laboratorios de prueba de petetración. 
+Esta herramienta esta creada para ser usada en entornos controlados. Para laboratorios de prueba de penetración. 
 No nos hacemos carlo de la mala utlilización de esta.
 
 
@@ -14,7 +14,7 @@ No nos hacemos carlo de la mala utlilización de esta.
 
 03Zcat is an excellent tool focused on compromising an external device.
 Based on msfvenom, written in bash. Run all available formats of the tool with ease.
-This tool is created to be used in controlled environments. For petetration testing laboratories.
+This tool is created to be used in controlled environments. For penetration testing laboratories.
 We do not become sad of the bad use of it.
 
 
