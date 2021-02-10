@@ -49,3 +49,7 @@ Commands:
 	sudo ./03Zcat.sh
 
                           By: Staff GreyHelmet SEc
+                          
+Update:
+
+    02/2021V.
