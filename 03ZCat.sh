@@ -23,7 +23,7 @@ logo () {
 ───────────────────────▄▄──█░░░░░░░░░░░█──▄▄
 ──────────────────────█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█ ☣️03Zcat 02/2021 
                                      backdoor generator
-                                     By: GZaballa (Killerpop) https://www.greyhelmet.ml/  
+                                     By: GZaballa (Killerpop) https://www.greyhelmet.net/  
                                      
 
                                      
