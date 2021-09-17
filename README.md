@@ -1,5 +1,5 @@
 <img src="https://1.bp.blogspot.com/-lV0q_RogHz0/XyhioZEr6yI/AAAAAAAACog/aUBE3KRem1IA3y03-I5sYSLCWA_ZsHJcwCLcBGAsYHQ/s640/dfbcbdf.png" />
-http://www.greyhelmet.ml/   https://www.greyhelmet.ml/2020/08/03zcat-automatizarla-generacion-de.html
+http://www.greyhelmet.net/   https://www.greyhelmet.net/2020/08/03zcat-automatizarla-generacion-de.html
 
 # 03Zcat By: @Killerpop
 
