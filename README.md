@@ -43,13 +43,22 @@ Dependencies:
 
 Commands:
 
+Install
+
 	git clone https://github.com/Killerpop/03zcat20.git
 	cd 03Zcat20
-	chmod +x 03Zcat.sh
-	sudo ./03Zcat.sh
+	chmod +x *
+	sudo ./install.sh
+	sudo 03Zcat
+
+
+Uninstall
+
+	sudo ./uninstaller.sh
+
 
                           By: Staff GreyHelmet SEc
                           
 Update:
 
-    02/2021V.
+    10/2021V.

@@ -31,7 +31,7 @@ logo () {
       GreyHelmet SEC  does not take care of any malicious use of the tool. 
       We recommend the use in a controlled laboratory.       By Staff GreyHelmet SEC  
       
-		\033[1;35mPayload has been saved in the folder ~/root/Desktop/payloads/";
+		${Purple}Payload has been saved in the folder ~/root/Desktop/payloads/";
 
 }
 
